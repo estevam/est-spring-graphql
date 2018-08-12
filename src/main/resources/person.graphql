@@ -1,0 +1,17 @@
+schema{
+  query: Query
+}
+
+type Query{
+   allPerson:[Person]
+
+}
+
+
+type Person {
+    id: Long
+    firstname: String
+    lastname: String
+    description:  String
+}
+

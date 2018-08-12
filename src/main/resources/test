@@ -1,0 +1,11 @@
+/person/	 [POST]
+
+Body:
+{
+ allPerson {
+    id
+    firstname
+    lastname
+    description
+}
+}
