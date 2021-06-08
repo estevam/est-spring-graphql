@@ -15,7 +15,7 @@ The following guides illustrate how to use some features concretely:
 ### Spring Boot microservice is using  
 
 * [Embedded Tomcat](https://spring.io/blog/2014/03/07/deploying-spring-boot-applications)
-* [Embedded database h2database](https://github.com/h2database/h2database)
+* [Embedded H2 database](https://github.com/h2database/h2database)
 
 ### After the microsrvice start service provide 
 
