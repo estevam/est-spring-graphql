@@ -1,0 +1,41 @@
+
+
+schema{
+ query:Query
+}
+
+type Query{  
+  user(id: String): User
+  allUser: [User]
+  allPost: [Post]
+  login(username: String, password: String): Token
+  saveUser(username: String, password: String, role: String): Status
+  savePost(title: String, body: String, views: Int, published: Int): Status
+}
+
+type User{
+  id: String
+  username: String
+  role: String
+  token: String
+  created_at: String
+}
+
+type Post{
+  title: String
+  body: String
+  views: Int
+  published: Int
+  created_at: String
+  updated_at: String
+}
+
+
+type Token{
+   token: String
+}
+
+
+type Status{
+   status: String
+}
