@@ -57,7 +57,8 @@ LEFT JOIN POSTS p ON u.ID = p.ID
 All the functionality is on type Query
 
 
-```json
+```
+
 schema{
  query:Query
 }
@@ -107,7 +108,8 @@ type Status{
 
 Payload example
 
-```json
+```
+
 {
 
      login(username:"estevam", password:"123"){
@@ -145,6 +147,7 @@ Payload example
    }
 
 }
+
 ```
 
 ![image](src/main/resources/desing.png)
